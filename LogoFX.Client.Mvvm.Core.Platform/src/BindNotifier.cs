@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Data;
 #endif
-#if WINDOWS_UWP || NETFX_CORE
+#if NETFX_CORE
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Data;
 #endif
