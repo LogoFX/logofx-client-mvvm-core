@@ -1,6 +1,6 @@
 ﻿{
   "dependencies": {
-    "LogoFX.Core": "1.0.7",
+    "LogoFX.Core": "1.0.8-rc1",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.3.3"
   },
   "frameworks": {
