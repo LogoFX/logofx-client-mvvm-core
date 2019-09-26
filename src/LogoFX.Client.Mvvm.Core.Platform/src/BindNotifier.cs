@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-#if NET
+#if NET || NETCORE
 using System.Windows;
 using System.Windows.Data;
 #endif
@@ -53,7 +53,7 @@ namespace LogoFX.Client.Mvvm.Core
             NotificationHelperDp that = (NotificationHelperDp)d;
 
             if (!that._isDetached && that._callback != null
-#if NET
+#if NET || NETCORE
  && BindingOperations.IsDataBound(that, BindValueProperty)
 #endif
 )
@@ -95,7 +95,7 @@ namespace LogoFX.Client.Mvvm.Core
 
             NotificationHelperDp binder = new NotificationHelperDp(callback);
             BindingOperations.SetBinding(binder, NotificationHelperDp.BindValueProperty,
-#if NET
+#if NET || NETCORE
  new Binding(path) { Source = vmb });
 #else
             new Binding { Source = vmb,Path = new PropertyPath(path)});
