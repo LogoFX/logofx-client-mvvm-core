@@ -18,5 +18,5 @@ common MVVM-related operations and utilities</summary>
     <dependencies>
       <dependency id="LogoFX.Core" version="2.2.0-rc2" />
     </dependencies>
-  </metadata>  
+  </metadata>
 </package>
