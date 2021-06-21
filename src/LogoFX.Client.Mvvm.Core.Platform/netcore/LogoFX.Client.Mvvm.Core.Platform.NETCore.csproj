@@ -19,6 +19,6 @@
     <Compile Include="..\src\BindNotifier.cs" Link="BindNotifier.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="LogoFX.Core" Version="2.2.0-rc2" />
+    <PackageReference Include="LogoFX.Core" Version="2.2.0-rc3" />
   </ItemGroup>
 </Project>
