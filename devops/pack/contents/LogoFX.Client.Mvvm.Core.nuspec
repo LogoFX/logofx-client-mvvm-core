@@ -14,9 +14,11 @@
 common MVVM-related operations and utilities</description>
     <summary>LogoFX Client Mvvm Core containing
 common MVVM-related operations and utilities</summary>
-    <releaseNotes>Updated dependent packages</releaseNotes>
+    <releaseNotes>Added support for .NET Core.</releaseNotes>
     <dependencies>
       <dependency id="LogoFX.Core" version="2.2.0" />
     </dependencies>
+    <tags>framework logofx dotnet</tags>
+    <repository type="Open Source" url="https://github.com/LogoFX/logofx-client-mvvm-core" />
   </metadata>
 </package>
