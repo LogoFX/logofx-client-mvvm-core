@@ -63,4 +63,3 @@ namespace LogoFX.Client.Mvvm.Core
         }
     }
 }
-
