@@ -17,6 +17,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="..\src\BindNotifier.cs" Link="BindNotifier.cs" />
+    <Compile Include="..\src\NotificationHelperDp.cs" Link="NotificationHelperDp.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="LogoFX.Core" Version="2.2.0" />
