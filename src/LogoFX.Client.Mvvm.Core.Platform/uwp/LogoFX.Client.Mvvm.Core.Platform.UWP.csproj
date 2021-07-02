@@ -109,6 +109,9 @@
     <Compile Include="..\src\BindNotifier.cs">
       <Link>BindNotifier.cs</Link>
     </Compile>
+    <Compile Include="..\src\NotificationHelperDp.cs">
+      <Link>NotificationHelperDp.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\LogoFX.Client.Mvvm.Core.Platform.UWP.rd.xml" />
   </ItemGroup>
